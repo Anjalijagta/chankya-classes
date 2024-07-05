@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container">
+        <form id="myForm">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email..">
+
+            <label for="contact">Contact Number</label>
+            <input type="tel" id="contact" name="contact" placeholder="Your contact number.." pattern="[0-9]+" title="Please enter only digits (0-9).">
+
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Your comments..."></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="display.js"></script>
+</body>
+</html>
